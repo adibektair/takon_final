@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="146" id="KGk-i7-Jjw" customClass="PhoneNumberTVC" customModule="TAKON_V2" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="146"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="145.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MTs-IH-5m9">
+                        <rect key="frame" x="16" y="16" width="288" height="48"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Введите номер телефона" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KYy-Xc-aGN">
+                                <rect key="frame" x="8" y="8" width="272" height="32"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="KYy-Xc-aGN" secondAttribute="trailing" constant="8" id="381-ns-YNw"/>
+                            <constraint firstItem="KYy-Xc-aGN" firstAttribute="top" secondItem="MTs-IH-5m9" secondAttribute="top" constant="8" id="G3O-At-GB6"/>
+                            <constraint firstItem="KYy-Xc-aGN" firstAttribute="leading" secondItem="MTs-IH-5m9" secondAttribute="leading" constant="8" id="LsT-Ze-uBN"/>
+                            <constraint firstAttribute="height" constant="48" id="O9J-P5-Qa7"/>
+                            <constraint firstAttribute="bottom" secondItem="KYy-Xc-aGN" secondAttribute="bottom" constant="8" id="dGq-yD-rUp"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z3P-ds-p3R">
+                        <rect key="frame" x="16" y="80" width="288" height="1"/>
+                        <color key="backgroundColor" red="0.78823529410000004" green="0.81568627449999997" blue="0.85490196080000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="x39-43-yxU"/>
+                        </constraints>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tvs-6P-PFF">
+                        <rect key="frame" x="43.5" y="111" width="233" height="27"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="233" id="RYm-Kx-SVf"/>
+                            <constraint firstAttribute="height" constant="27" id="bZH-GG-SpH"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                        <state key="normal" title="Button">
+                            <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Whs-7Q-0at">
+                        <rect key="frame" x="160" y="89" width="0.0" height="0.0"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.23921568630000001" green="0.25098039220000001" blue="0.30196078430000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Whs-7Q-0at" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="4nr-Gc-jPM"/>
+                    <constraint firstItem="z3P-ds-p3R" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="Fj6-ra-Pgb"/>
+                    <constraint firstAttribute="trailing" secondItem="z3P-ds-p3R" secondAttribute="trailing" constant="16" id="IQ6-V8-hR9"/>
+                    <constraint firstItem="MTs-IH-5m9" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="Rgo-oL-TJ1"/>
+                    <constraint firstAttribute="trailing" secondItem="MTs-IH-5m9" secondAttribute="trailing" constant="16" id="aYs-23-MMk"/>
+                    <constraint firstItem="Tvs-6P-PFF" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="fYT-Dn-LSf"/>
+                    <constraint firstItem="MTs-IH-5m9" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="hah-e7-VJo"/>
+                    <constraint firstItem="z3P-ds-p3R" firstAttribute="top" secondItem="MTs-IH-5m9" secondAttribute="bottom" constant="16" id="phq-Dn-Mlq"/>
+                    <constraint firstItem="Whs-7Q-0at" firstAttribute="top" secondItem="z3P-ds-p3R" secondAttribute="bottom" constant="8" id="w62-7I-KYj"/>
+                    <constraint firstItem="Tvs-6P-PFF" firstAttribute="top" secondItem="z3P-ds-p3R" secondAttribute="bottom" constant="30" id="xFd-NR-wdh"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="getFromContactsButton" destination="Tvs-6P-PFF" id="iaZ-h6-tE3"/>
+                <outlet property="nameLabel" destination="Whs-7Q-0at" id="Bvw-iO-mYa"/>
+                <outlet property="phoneNumberTextField" destination="KYy-Xc-aGN" id="Neq-fB-nZW"/>
+                <outlet property="textView" destination="MTs-IH-5m9" id="smT-l1-wiR"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="51.5625"/>
+        </tableViewCell>
+    </objects>
+</document>

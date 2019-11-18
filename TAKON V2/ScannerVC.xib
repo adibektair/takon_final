@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ScannerVC" customModule="TAKON_V2" customModuleProvider="target">
+            <connections>
+                <outlet property="scannerView" destination="ZE8-al-UCC" id="vaU-UW-55t"/>
+                <outlet property="tView" destination="Qmy-ti-U7L" id="Kaf-Uj-QeS"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qmy-ti-U7L">
+                    <rect key="frame" x="187" y="84" width="40" height="40"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="T" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MNg-mX-aX8">
+                            <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                            <color key="textColor" red="0.89411764709999997" green="0.91764705879999997" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="MNg-mX-aX8" secondAttribute="bottom" id="34L-bX-LZp"/>
+                        <constraint firstItem="MNg-mX-aX8" firstAttribute="top" secondItem="Qmy-ti-U7L" secondAttribute="top" id="SNJ-dF-2jV"/>
+                        <constraint firstAttribute="width" constant="40" id="Yat-2z-1sW"/>
+                        <constraint firstItem="MNg-mX-aX8" firstAttribute="leading" secondItem="Qmy-ti-U7L" secondAttribute="leading" id="jiI-zS-GRD"/>
+                        <constraint firstAttribute="height" constant="40" id="k25-0D-R9a"/>
+                        <constraint firstAttribute="trailing" secondItem="MNg-mX-aX8" secondAttribute="trailing" id="kwW-Sb-RC4"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Поместите QR код в область ниже" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZSE-PH-v5j">
+                    <rect key="frame" x="20" y="144" width="394" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZE8-al-UCC">
+                    <rect key="frame" x="20" y="266" width="374" height="374"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="ZE8-al-UCC" secondAttribute="height" multiplier="1:1" id="yeW-kK-PhF"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B04-X8-3rv">
+                    <rect key="frame" x="344" y="54" width="60" height="30"/>
+                    <state key="normal" title="Закрыть">
+                        <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="closeButtonPressed:" destination="-1" eventType="touchUpInside" id="IBI-vR-bha"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Qmy-ti-U7L" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="5ew-2v-P1f"/>
+                <constraint firstItem="ZSE-PH-v5j" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="ANq-eI-bZx"/>
+                <constraint firstItem="ZE8-al-UCC" firstAttribute="centerY" secondItem="fnl-2z-Ty3" secondAttribute="centerY" id="Dlj-Dw-bZD"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ZSE-PH-v5j" secondAttribute="trailing" id="Idn-E1-MeQ"/>
+                <constraint firstItem="ZE8-al-UCC" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="Lqe-OT-vCd"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="B04-X8-3rv" secondAttribute="trailing" constant="10" id="VMc-cN-PyT"/>
+                <constraint firstItem="ZSE-PH-v5j" firstAttribute="top" secondItem="MNg-mX-aX8" secondAttribute="bottom" constant="20" id="aqy-rS-KFs"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ZE8-al-UCC" secondAttribute="trailing" constant="20" id="gdl-FK-9kt"/>
+                <constraint firstItem="Qmy-ti-U7L" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="40" id="rzM-uO-OCU"/>
+                <constraint firstItem="B04-X8-3rv" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="10" id="yE7-ZW-pTm"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="174" y="-41"/>
+        </view>
+    </objects>
+</document>

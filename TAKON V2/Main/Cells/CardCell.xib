@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="73" id="KGk-i7-Jjw" customClass="CardCell" customModule="TAKON_V2" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="73"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="72.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L1q-U6-a22">
+                        <rect key="frame" x="16" y="27.5" width="39" height="18"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MQf-4y-G29">
+                        <rect key="frame" x="280" y="24.5" width="24" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="24" id="YQj-F2-mU0"/>
+                            <constraint firstAttribute="height" constant="24" id="hIE-KL-6Y2"/>
+                        </constraints>
+                        <state key="normal">
+                            <color key="titleColor" red="1" green="0.30655149949999999" blue="0.42508689849999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="L1q-U6-a22" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Z7Y-B7-VCE"/>
+                    <constraint firstItem="L1q-U6-a22" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="fd1-S6-XeG"/>
+                    <constraint firstItem="MQf-4y-G29" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="iuh-J9-kCP"/>
+                    <constraint firstAttribute="trailing" secondItem="MQf-4y-G29" secondAttribute="trailing" constant="16" id="pYB-w2-lV4"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="buttonWidth" destination="YQj-F2-mU0" id="M4v-g9-45E"/>
+                <outlet property="cardNumberLabel" destination="L1q-U6-a22" id="MRl-uX-cxU"/>
+                <outlet property="selectButton" destination="MQf-4y-G29" id="Sch-E6-JNK"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="138.28125"/>
+        </tableViewCell>
+    </objects>
+</document>

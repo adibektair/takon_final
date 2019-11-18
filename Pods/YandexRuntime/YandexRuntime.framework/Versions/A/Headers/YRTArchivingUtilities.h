@@ -1,0 +1,31 @@
+#pragma once
+
+#import <YandexRuntime/YRTArchiving.h>
+#import <YandexRuntime/YRTExtern.h>
+
+YRT_EXTERN YRTArchivingHandler YRTArchivingBooleanHandler();
+YRT_EXTERN YRTArchivingHandler YRTNewArchivingBooleanHandler(BOOL isOptional);
+YRT_EXTERN YRTArchivingHandler YRTArchivingIntegerHandler();
+YRT_EXTERN YRTArchivingHandler YRTNewArchivingIntegerHandler(BOOL isOptional);
+YRT_EXTERN YRTArchivingHandler YRTArchivingUnsignedIntegerHandler();
+YRT_EXTERN YRTArchivingHandler YRTNewArchivingUnsignedIntegerHandler(BOOL isOptional);
+YRT_EXTERN YRTArchivingHandler YRTArchivingLongLongHandler();
+YRT_EXTERN YRTArchivingHandler YRTNewArchivingLongLongHandler(BOOL isOptional);
+YRT_EXTERN YRTArchivingHandler YRTArchivingFloatHandler();
+YRT_EXTERN YRTArchivingHandler YRTNewArchivingFloatHandler(BOOL isOptional);
+YRT_EXTERN YRTArchivingHandler YRTArchivingDoubleHandler();
+YRT_EXTERN YRTArchivingHandler YRTNewArchivingDoubleHandler(BOOL isOptional);
+YRT_EXTERN YRTArchivingHandler YRTArchivingStringHandler();
+YRT_EXTERN YRTArchivingHandler YRTNewArchivingStringHandler(BOOL isOptional);
+YRT_EXTERN YRTArchivingHandler YRTArchivingDataHandler();
+YRT_EXTERN YRTArchivingHandler YRTNewArchivingDataHandler(BOOL isOptional);
+YRT_EXTERN YRTArchivingHandler YRTArchivingColorHandler();
+YRT_EXTERN YRTArchivingHandler YRTNewArchivingColorHandler(BOOL isOptional);
+YRT_EXTERN YRTArchivingHandler YRTArchivingDateHandler();
+YRT_EXTERN YRTArchivingHandler YRTNewArchivingDateHandler(BOOL isOptional);
+YRT_EXTERN YRTArchivingHandler YRTArchivingTimeIntervalHandler();
+YRT_EXTERN YRTArchivingHandler YRTNewArchivingTimeIntervalHandler(BOOL isOptional);
+YRT_EXTERN YRTArchivingHandler YRTArchivingPointHandler();
+YRT_EXTERN YRTArchivingHandler YRTNewArchivingPointHandler(BOOL isOptional);
+YRT_EXTERN YRTArchivingHandler YRTArchivingClassHandler(Class cls);
+YRT_EXTERN YRTArchivingHandler YRTNewArchivingClassHandler(NSString *className, BOOL isOptional);

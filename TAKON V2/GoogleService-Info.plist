@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>348415643451-m50kqsrq8nif4uuttj1r17mt6eqq1v7f.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.348415643451-m50kqsrq8nif4uuttj1r17mt6eqq1v7f</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>348415643451-kfplneqt95nntigssnfe66dq4bkgarvf.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDgCRySEAKMwj2ScjA0U7UzkywzqaI6M3s</string>
+	<key>GCM_SENDER_ID</key>
+	<string>348415643451</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>kz.TAKON-V2</string>
+	<key>PROJECT_ID</key>
+	<string>takon-5c869</string>
+	<key>STORAGE_BUCKET</key>
+	<string>takon-5c869.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:348415643451:ios:3facd01ff9cf90542cb11e</string>
+	<key>DATABASE_URL</key>
+	<string>https://takon-5c869.firebaseio.com</string>
+</dict>
+</plist>
