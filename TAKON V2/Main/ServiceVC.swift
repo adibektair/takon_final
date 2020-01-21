@@ -64,6 +64,9 @@ class ServiceVC: UIViewController, UITableViewDataSource, UITableViewDelegate, U
                 }
                 self.totalAmount += service.usersAmount!
             }
+            if self.users_services.count > 0{
+                self.selectedId = self.users_services[0].id!
+            }
             self.tableView.reloadData()
         })
     }

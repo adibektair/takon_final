@@ -20,7 +20,16 @@ class MainVC: UIViewController, UICollectionViewDelegate, UICollectionViewDataSo
         self.tabBarController?.tabBar.isHidden = false
         if #available(iOS 11.0, *) {
             self.navigationController?.navigationBar.prefersLargeTitles = true
-            
+            if #available(iOS 13.0, *) {
+                let appearance = UINavigationBarAppearance()
+                appearance.backgroundColor = .white
+//                appearance.titleTextAttributes = [.foregroundColor: UIColor.black]
+//                appearance.largeTitleTextAttributes = [.foregroundColor: UIColor.black]
+//                UINavigationBar.appearance().tintColor = .white
+                UINavigationBar.appearance().standardAppearance = appearance
+                UINavigationBar.appearance().compactAppearance = appearance
+                UINavigationBar.appearance().scrollEdgeAppearance = appearance
+            }
         } 
         self.getSubscribtions(completionHandler: { subs in
             self.partners = subs

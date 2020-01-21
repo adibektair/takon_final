@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Bucket
+   uuid = "C7EE675B-D36D-4315-8551-A77EC5AD63B3"
    type = "0"
    version = "2.0">
    <Breakpoints>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "BF166B83-D92A-47C1-936B-B4214CEDE2F8"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -19,6 +21,7 @@
             landmarkType = "7">
             <Locations>
                <Location
+                  uuid = "BF166B83-D92A-47C1-936B-B4214CEDE2F8 - 4ae4e35948ae7517"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -26,14 +29,14 @@
                   moduleName = "TAKON V2"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/macbookpro2015/Desktop/iOS/TAKON%20V2/TAKON%20V2/Main/SendFriendVC.swift"
-                  timestampString = "594809793.820559"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "169"
                   endingLineNumber = "169"
-                  offsetFromSymbolStart = "4528">
+                  offsetFromSymbolStart = "4712">
                </Location>
                <Location
+                  uuid = "BF166B83-D92A-47C1-936B-B4214CEDE2F8 - f368deec09eeee74"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -41,7 +44,6 @@
                   moduleName = "TAKON V2"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/macbookpro2015/Desktop/iOS/TAKON%20V2/TAKON%20V2/Main/SendFriendVC.swift"
-                  timestampString = "594809793.822814"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "170"
@@ -54,6 +56,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "6DD03271-D80E-45F0-A863-552308C8231E"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -70,6 +73,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "4FED0CAD-E542-4067-8D18-32CF0B3B6DF8"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -86,6 +90,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "B34386FB-73D7-4BEA-BF9F-F879FD0EE03C"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -102,6 +107,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "3C7B951D-5430-4843-8795-4550E9A5F413"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -118,6 +124,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "9F4E3E39-3720-4A33-86D6-A31085309FA5"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -134,6 +141,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "276F12E8-4085-411D-9F53-E4BC3DA81B48"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -150,6 +158,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "E5065AF7-DE1C-4928-B473-C98B018F2D76"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -166,6 +175,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "FB6AA044-D24E-4F2F-9244-A38B651A541F"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -182,6 +192,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "06B3C591-BE6E-4E98-A38E-0A76E42CA7EF"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -191,13 +202,14 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "105"
             endingLineNumber = "105"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "application(_:didReceiveRemoteNotification:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "0EFC5C09-AE5A-43CA-8D4A-CF9B36EA1D7A"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -214,6 +226,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "0A4B1A74-0F18-404A-901E-213B6AA4E132"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -227,6 +240,7 @@
             landmarkType = "7">
             <Locations>
                <Location
+                  uuid = "0A4B1A74-0F18-404A-901E-213B6AA4E132 - d780555d39f23608"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -234,14 +248,14 @@
                   moduleName = "TAKON V2"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/macbookpro2015/Desktop/iOS/TAKON%20V2/TAKON%20V2/Main/CardsVC.swift"
-                  timestampString = "594809793.982869"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "129"
                   endingLineNumber = "129"
-                  offsetFromSymbolStart = "324">
+                  offsetFromSymbolStart = "328">
                </Location>
                <Location
+                  uuid = "0A4B1A74-0F18-404A-901E-213B6AA4E132 - d780555d39f23608"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -249,14 +263,14 @@
                   moduleName = "TAKON V2"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/macbookpro2015/Desktop/iOS/TAKON%20V2/TAKON%20V2/Main/CardsVC.swift"
-                  timestampString = "594809793.984865"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "129"
                   endingLineNumber = "129"
-                  offsetFromSymbolStart = "1044">
+                  offsetFromSymbolStart = "1064">
                </Location>
                <Location
+                  uuid = "0A4B1A74-0F18-404A-901E-213B6AA4E132 - 84d031a1ad7043c"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -264,7 +278,6 @@
                   moduleName = "TAKON V2"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/macbookpro2015/Desktop/iOS/TAKON%20V2/TAKON%20V2/Main/CardsVC.swift"
-                  timestampString = "594809793.986783"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "131"
@@ -277,6 +290,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "EBB4BC87-086A-4316-804D-2117BFF02A61"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -290,6 +304,7 @@
             landmarkType = "7">
             <Locations>
                <Location
+                  uuid = "EBB4BC87-086A-4316-804D-2117BFF02A61 - 37924768c77bde87"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -297,14 +312,14 @@
                   moduleName = "TAKON V2"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/macbookpro2015/Desktop/iOS/TAKON%20V2/TAKON%20V2/Main/CardsVC.swift"
-                  timestampString = "594809793.992144"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "212"
                   endingLineNumber = "212"
-                  offsetFromSymbolStart = "1488">
+                  offsetFromSymbolStart = "1508">
                </Location>
                <Location
+                  uuid = "EBB4BC87-086A-4316-804D-2117BFF02A61 - fb1065ac90c9a147"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -312,7 +327,6 @@
                   moduleName = "TAKON V2"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/macbookpro2015/Desktop/iOS/TAKON%20V2/TAKON%20V2/Main/CardsVC.swift"
-                  timestampString = "594809793.994051"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "213"
@@ -325,6 +339,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "A5233614-A079-4658-B091-64DD0851B60F"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -332,12 +347,13 @@
             timestampString = "594810004.859007"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "157"
-            endingLineNumber = "157"
+            startingLineNumber = "160"
+            endingLineNumber = "160"
             landmarkName = "acceptClicked(_:)"
             landmarkType = "7">
             <Locations>
                <Location
+                  uuid = "A5233614-A079-4658-B091-64DD0851B60F - b99ffaeaa5118b6f"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -345,14 +361,14 @@
                   moduleName = "TAKON V2"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/macbookpro2015/Desktop/iOS/TAKON%20V2/TAKON%20V2/Main/ServiceVC.swift"
-                  timestampString = "594809793.998585"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "157"
-                  endingLineNumber = "157"
-                  offsetFromSymbolStart = "2012">
+                  startingLineNumber = "160"
+                  endingLineNumber = "160"
+                  offsetFromSymbolStart = "2096">
                </Location>
                <Location
+                  uuid = "A5233614-A079-4658-B091-64DD0851B60F - ac255f2840db3f6d"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -360,11 +376,10 @@
                   moduleName = "TAKON V2"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/macbookpro2015/Desktop/iOS/TAKON%20V2/TAKON%20V2/Main/ServiceVC.swift"
-                  timestampString = "594809794.0005161"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "158"
-                  endingLineNumber = "158"
+                  startingLineNumber = "161"
+                  endingLineNumber = "161"
                   offsetFromSymbolStart = "184">
                </Location>
             </Locations>
@@ -373,6 +388,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "6C42C673-8F40-41DD-BA29-7E2BA59C2110"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -380,8 +396,8 @@
             timestampString = "594810004.8590569"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "150"
-            endingLineNumber = "150"
+            startingLineNumber = "153"
+            endingLineNumber = "153"
             landmarkName = "acceptClicked(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -389,6 +405,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "7AF3E57B-F03C-42DE-BF93-9511852BEBF7"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -396,8 +413,8 @@
             timestampString = "594810004.859102"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "151"
-            endingLineNumber = "151"
+            startingLineNumber = "154"
+            endingLineNumber = "154"
             landmarkName = "acceptClicked(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -405,6 +422,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "E83D7397-7FFF-4118-B01E-DF2625CAFAF8"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -412,8 +430,8 @@
             timestampString = "594810004.859146"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "140"
-            endingLineNumber = "140"
+            startingLineNumber = "143"
+            endingLineNumber = "143"
             landmarkName = "acceptClicked(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -421,6 +439,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "F0BEE87F-F8E5-4D20-B219-0219634087E2"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -428,12 +447,13 @@
             timestampString = "594810004.8591909"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "211"
-            endingLineNumber = "211"
+            startingLineNumber = "214"
+            endingLineNumber = "214"
             landmarkName = "selectCompany(_:)"
             landmarkType = "7">
             <Locations>
                <Location
+                  uuid = "F0BEE87F-F8E5-4D20-B219-0219634087E2 - 26f79de37cd00637"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -441,14 +461,14 @@
                   moduleName = "TAKON V2"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/macbookpro2015/Desktop/iOS/TAKON%20V2/TAKON%20V2/Main/ServiceVC.swift"
-                  timestampString = "594809794.019003"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "211"
-                  endingLineNumber = "211"
-                  offsetFromSymbolStart = "3284">
+                  startingLineNumber = "214"
+                  endingLineNumber = "214"
+                  offsetFromSymbolStart = "3476">
                </Location>
                <Location
+                  uuid = "F0BEE87F-F8E5-4D20-B219-0219634087E2 - fb2c859d2d1bba35"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -456,11 +476,10 @@
                   moduleName = "TAKON V2"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/macbookpro2015/Desktop/iOS/TAKON%20V2/TAKON%20V2/Main/ServiceVC.swift"
-                  timestampString = "594809794.0209"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "212"
-                  endingLineNumber = "212"
+                  startingLineNumber = "215"
+                  endingLineNumber = "215"
                   offsetFromSymbolStart = "116">
                </Location>
             </Locations>
@@ -469,6 +488,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "6F830AE6-B728-4F0D-9E48-13E7DC10C746"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -485,6 +505,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "AD0F9884-E15F-499B-97B4-D3392BCCA83A"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -492,15 +513,16 @@
             timestampString = "594810004.859251"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "122"
-            endingLineNumber = "122"
-            landmarkName = "getSubscribtions(completionHandler:)"
+            startingLineNumber = "121"
+            endingLineNumber = "121"
+            landmarkName = "addPartner(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "33778166-B2A0-4730-B565-C47804829B0A"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -508,40 +530,56 @@
             timestampString = "594810004.859296"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "120"
-            endingLineNumber = "120"
-            landmarkName = "getSubscribtions(completionHandler:)"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
+            landmarkName = "MainVC"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E0D064F0-9E00-4C06-8B00-CC101EB1651E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TAKON V2/Main/ServiceVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "268"
+            endingLineNumber = "268"
+            landmarkName = "pay(jsonObject:completionHandler:)"
             landmarkType = "7">
             <Locations>
                <Location
+                  uuid = "E0D064F0-9E00-4C06-8B00-CC101EB1651E - c7a473b2a6f4c818"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "TAKON_V2.MainVC.getSubscribtions(completionHandler: (Swift.Array&lt;TAKON_V2.Partner&gt;) -&gt; ()) -&gt; ()"
+                  symbolName = "(extension in TAKON_V2):__C.UIViewController.pay(jsonObject: Swift.Dictionary&lt;Swift.String, Any&gt;, completionHandler: (TAKON_V2.Response) -&gt; ()) -&gt; ()"
                   moduleName = "TAKON V2"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macbookpro2015/Desktop/iOS/TAKON%20V2/TAKON%20V2/Main/MainVC.swift"
-                  timestampString = "594809794.032895"
+                  urlString = "file:///Users/macbookpro2015/Desktop/iOS/TAKON%20V2/TAKON%20V2/Main/ServiceVC.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "123"
-                  endingLineNumber = "123"
-                  offsetFromSymbolStart = "156">
+                  startingLineNumber = "268"
+                  endingLineNumber = "268"
+                  offsetFromSymbolStart = "200">
                </Location>
                <Location
+                  uuid = "E0D064F0-9E00-4C06-8B00-CC101EB1651E - 90b07598b7e931e7"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Alamofire.DataResponse&lt;TAKON_V2.MainPage&gt;) -&gt; () in TAKON_V2.MainVC.getSubscribtions(completionHandler: (Swift.Array&lt;TAKON_V2.Partner&gt;) -&gt; ()) -&gt; ()"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;TAKON_V2.Response&gt;) -&gt; () in (extension in TAKON_V2):__C.UIViewController.pay(jsonObject: Swift.Dictionary&lt;Swift.String, Any&gt;, completionHandler: (TAKON_V2.Response) -&gt; ()) -&gt; ()"
                   moduleName = "TAKON V2"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macbookpro2015/Desktop/iOS/TAKON%20V2/TAKON%20V2/Main/MainVC.swift"
-                  timestampString = "594809794.034834"
+                  urlString = "file:///Users/macbookpro2015/Desktop/iOS/TAKON%20V2/TAKON%20V2/Main/ServiceVC.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "125"
-                  endingLineNumber = "125"
-                  offsetFromSymbolStart = "204">
+                  startingLineNumber = "270"
+                  endingLineNumber = "270"
+                  offsetFromSymbolStart = "180">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -549,17 +587,97 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "A2201BC8-5962-49AC-9B2B-5449547E571D"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "TAKON V2/Main/MainVC.swift"
-            timestampString = "595750700.665994"
+            filePath = "TAKON V2/Main/ServiceVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
-            landmarkName = "viewWillAppear(_:)"
+            startingLineNumber = "240"
+            endingLineNumber = "240"
+            landmarkName = "pickerView(_:didSelectRow:inComponent:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "613AC3BE-1A83-4E40-B69E-A16845ABE9C2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TAKON V2/Main/ServiceVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "238"
+            endingLineNumber = "238"
+            landmarkName = "pickerView(_:didSelectRow:inComponent:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6B8DA078-D845-47AD-BB4D-6E42BA23F8E6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TAKON V2/Main/ServiceVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "239"
+            endingLineNumber = "239"
+            landmarkName = "pickerView(_:didSelectRow:inComponent:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B3B13A71-4B88-4EC3-B811-9F7A9BB7B505"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TAKON V2/Main/BuyTakonsVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "122"
+            endingLineNumber = "122"
+            landmarkName = "walletOne(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B3B13A71-4B88-4EC3-B811-9F7A9BB7B505 - f99aa8f4274a7463"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TAKON_V2.BuyTakonsVC.walletOne(__C.UIButton) -&gt; ()"
+                  moduleName = "TAKON V2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookpro2015/Desktop/iOS/TAKON%20V2/TAKON%20V2/Main/BuyTakonsVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "122"
+                  endingLineNumber = "122"
+                  offsetFromSymbolStart = "2816">
+               </Location>
+               <Location
+                  uuid = "B3B13A71-4B88-4EC3-B811-9F7A9BB7B505 - 6426f20d5eccc939"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String) -&gt; () in TAKON_V2.BuyTakonsVC.walletOne(__C.UIButton) -&gt; ()"
+                  moduleName = "TAKON V2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookpro2015/Desktop/iOS/TAKON%20V2/TAKON%20V2/Main/BuyTakonsVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "124"
+                  endingLineNumber = "124"
+                  offsetFromSymbolStart = "116">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

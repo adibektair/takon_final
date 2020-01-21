@@ -22,7 +22,7 @@ class CompanyVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         
         super.viewDidLoad()
         if #available(iOS 11.0, *) {
-            self.navigationController?.navigationBar.prefersLargeTitles = false
+            self.navigationController?.navigationBar.prefersLargeTitles = true
         } else {
             // Fallback on earlier versions
         }

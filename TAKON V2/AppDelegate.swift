@@ -29,6 +29,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             let newViewController = storyBoard.instantiateViewController(withIdentifier: "main")
             self.window?.rootViewController = newViewController
         }
+        UIApplication.shared.windows.forEach { window in
+            if #available(iOS 13.0, *) {
+                window.overrideUserInterfaceStyle = .light
+            } else {
+                // Fallback on earlier versions
+            }
+        }
 
         YMKMapKit.setApiKey(mapKey)
         FirebaseApp.configure()
@@ -51,12 +58,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         application.registerForRemoteNotifications()
         
-        InstanceID.instanceID().instanceID { (result, _) in
-            if result != nil {
-                // Receive notifications from the "all" topic
-                Messaging.messaging().subscribe(toTopic: "all")
-            }
-        }
+//        InstanceID.instanceID().instanceID { (result, _) in
+//            if result != nil {
+//                // Receive notifications from the "all" topic
+//                Messaging.messaging().subscribe(toTopic: "all")
+//            }
+//        }
         return true
     }
 

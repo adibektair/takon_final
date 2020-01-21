@@ -7,12 +7,14 @@
 //
 
 import UIKit
+import Alamofire
+import ObjectMapper
 
 class BuyTakonsVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     var service: Service?
     var partner: Partner?
-    let fields : [PaymentFields] = [.name, .amount, .phoneNumber, .phone, .button]
+    let fields : [PaymentFields] = [.name, .amount, .phoneNumber, .phone, .button, .walletPay]
     
     
     override func viewDidLoad() {
@@ -67,10 +69,19 @@ class BuyTakonsVC: UIViewController, UITableViewDelegate, UITableViewDataSource 
             cell.price = self.service!.paymentPrice!
             cell.amountTextField.keyboardType = .numberPad
             return cell
+            
+        case .button:
+            let cell = tableView.dequeueReusableCell(withIdentifier: "ButtonCell", for: indexPath) as! ButtonCell
+                  cell.button.setTitle("Оплатить", for: .normal)
+                  cell.button.addTarget(self, action: #selector(self.pay(_:)), for: .touchUpInside)
+                  return cell
         default:
             let cell = tableView.dequeueReusableCell(withIdentifier: "ButtonCell", for: indexPath) as! ButtonCell
-            cell.button.setTitle("Оплатить", for: .normal)
-            cell.button.addTarget(self, action: #selector(self.pay(_:)), for: .touchUpInside)
+            cell.button.setTitle("Оплатить WalletOne", for: .normal)
+            cell.button.backgroundColor = .white
+            cell.button.cornerRadius(radius: 8, width: 1, color: #colorLiteral(red: 0, green: 0.4784313725, blue: 1, alpha: 1))
+            cell.button.setTitleColor(#colorLiteral(red: 0, green: 0.4784313725, blue: 1, alpha: 1), for: .normal)
+            cell.button.addTarget(self, action: #selector(self.walletOne(_:)), for: .touchUpInside)
             return cell
         }
     }
@@ -81,8 +92,12 @@ class BuyTakonsVC: UIViewController, UITableViewDelegate, UITableViewDataSource 
             return 80.0
         case .phone:
             return 160.0
+        case .name:
+            return 35.0
+        case .phoneNumber:
+            return 35.0
         default:
-            return 35
+            return 90
         }
     }
     @objc func back(_ sender: UIButton){
@@ -90,9 +105,29 @@ class BuyTakonsVC: UIViewController, UITableViewDelegate, UITableViewDataSource 
     }
     @objc func pay(_ sender: UIButton){
         let amountCell = self.tableView.cellForRow(at: IndexPath(row: 3, section: 0)) as! OnlinePaymentCell
-        let amount = amountCell.amountTextField.text!
-        let price = Int(amount)! * (self.service?.paymentPrice!)!
-        CardsVC.open(vc: self, service: self.service!, partner: self.partner!, isPayment: true, price: price)
+        if let amount = amountCell.amountTextField.text{
+            let price = Int(amount)! * (self.service?.paymentPrice!)!
+            CardsVC.open(vc: self, service: self.service!, partner: self.partner!, isPayment: true, price: price)
+        }else{
+            self.showAlert(title: "Внимание", message: "Введите количество")
+        }
+        
+    }
+    @objc func walletOne(_ sender: UIButton){
+        let amountCell = self.tableView.cellForRow(at: IndexPath(row: 3, section: 0)) as! OnlinePaymentCell
+        if let amount = amountCell.amountTextField.text{
+           
+            let json = ["service_id" : self.service!.id!, "amount" : amount] as [String: AnyObject]
+            self.startLoading()
+            self.payByWalletOne(params: json, completionHandler: { resp in
+                
+                WalletOneVC.open(vc: self, url: resp)
+            })
+            
+        }else{
+            self.showAlert(title: "Внимание", message: "Введите количество")
+        }
+        
     }
     
     static func open(vc: UIViewController, service : Service, partner: Partner){
@@ -104,4 +139,29 @@ class BuyTakonsVC: UIViewController, UITableViewDelegate, UITableViewDataSource 
         }
     }
     
+}
+extension BuyTakonsVC{
+    func payByWalletOne (params: [String: AnyObject], completionHandler: @escaping (_ str: String) -> ()){
+           
+           let headers = [
+               "Content-Type": "application/x-www-form-urlencoded",
+               "Authorization" : "Bearer " + getToken()
+           ]
+           
+           Alamofire.request(url + "create-wallet-order", method: .post, parameters: params, headers: headers).responseJSON { response in
+                        if let code = response.response?.statusCode{
+                            self.stopLoading()
+                            if code == 200{
+                                if let result = response.result.value{
+                                    let JSON = result as! Dictionary<String, Any>
+                                    
+                                    completionHandler(JSON["url"] as! String)
+                                }
+                            }else{
+                                self.showAlert(title: "Some error occured", message: "Try again later")
+                            }
+                        }
+                        print(response)
+                }
+       }
 }

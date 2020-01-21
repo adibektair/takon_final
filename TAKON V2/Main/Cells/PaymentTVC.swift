@@ -51,4 +51,5 @@ enum PaymentFields {
     case phone
     case phoneNumber
     case button
+    case walletPay
 }

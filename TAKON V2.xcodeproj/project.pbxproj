@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3912A221646C9798045FA848 /* Pods_TAKON_V2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9FB9CDC5744C5DD67E64793 /* Pods_TAKON_V2Tests.framework */; };
-		3FCD7DDC9DD9D95C9AF9CF23 /* Pods_TAKON_V2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A5BD64739E5AC4092FCA9C /* Pods_TAKON_V2UITests.framework */; };
-		52BAE573D463F2B398669D5C /* Pods_TAKON_V2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA07D8873F50E6E961F41442 /* Pods_TAKON_V2.framework */; };
+		3364B291D3F94AE901A1253D /* Pods_TAKON_V2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEFD9B35D7E8F25727C94D3F /* Pods_TAKON_V2UITests.framework */; };
 		AA066A3F2354409100DC2C28 /* CloudPaymentsAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA066A3E2354409100DC2C28 /* CloudPaymentsAPI.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		AA1538CE234F3362008097E6 /* AddCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1538CC234F3362008097E6 /* AddCardVC.swift */; };
 		AA1538CF234F3362008097E6 /* AddCardVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA1538CD234F3362008097E6 /* AddCardVC.xib */; };
@@ -39,6 +37,8 @@
 		AA93EB07233A0B620046389C /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA93EB06233A0B620046389C /* Storyboard.storyboard */; };
 		AA93EB09233A10250046389C /* MyTabBarCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA93EB08233A10250046389C /* MyTabBarCtrl.swift */; };
 		AA93EB0B233A10640046389C /* MyTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA93EB0A233A10640046389C /* MyTabBar.swift */; };
+		AAAAF587239798D200974438 /* WalletOneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAF585239798D200974438 /* WalletOneVC.swift */; };
+		AAAAF588239798D200974438 /* WalletOneVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAAAF586239798D200974438 /* WalletOneVC.xib */; };
 		AAAE413223437F540081BA75 /* ButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAE413023437F540081BA75 /* ButtonCell.swift */; };
 		AAAE413323437F540081BA75 /* ButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAAE413123437F540081BA75 /* ButtonCell.xib */; };
 		AAAE4136234466990081BA75 /* QRCodeGeneratorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAE4134234466990081BA75 /* QRCodeGeneratorVC.swift */; };
@@ -85,6 +85,8 @@
 		AAFEF48D2338EE2D00B7A406 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFEF48C2338EE2D00B7A406 /* UIViewControllerExtension.swift */; };
 		AAFEF4902338FA0200B7A406 /* ConfirmVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFEF48E2338FA0200B7A406 /* ConfirmVC.swift */; };
 		AAFEF4912338FA0200B7A406 /* ConfirmVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAFEF48F2338FA0200B7A406 /* ConfirmVC.xib */; };
+		E19DE0518098DF968121CD4A /* Pods_TAKON_V2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 369A8BAB685090C7F64F7E89 /* Pods_TAKON_V2.framework */; };
+		F15B65FB4997FC27175DD84A /* Pods_TAKON_V2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 024A9960330925FB335193EA /* Pods_TAKON_V2Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,9 +107,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		12ACFCC62F70D65F6B12E307 /* Pods-TAKON V2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TAKON V2UITests.debug.xcconfig"; path = "Target Support Files/Pods-TAKON V2UITests/Pods-TAKON V2UITests.debug.xcconfig"; sourceTree = "<group>"; };
-		6162DEC82202144F86DDE2EC /* Pods-TAKON V2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TAKON V2Tests.debug.xcconfig"; path = "Target Support Files/Pods-TAKON V2Tests/Pods-TAKON V2Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		6831317CAE9196E1B8A022CC /* Pods-TAKON V2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TAKON V2.release.xcconfig"; path = "Target Support Files/Pods-TAKON V2/Pods-TAKON V2.release.xcconfig"; sourceTree = "<group>"; };
+		024A9960330925FB335193EA /* Pods_TAKON_V2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TAKON_V2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16228875F1266EEE6DB5BD3B /* Pods-TAKON V2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TAKON V2UITests.debug.xcconfig"; path = "Target Support Files/Pods-TAKON V2UITests/Pods-TAKON V2UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1AED6B67D5B857E27852A79E /* Pods-TAKON V2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TAKON V2UITests.release.xcconfig"; path = "Target Support Files/Pods-TAKON V2UITests/Pods-TAKON V2UITests.release.xcconfig"; sourceTree = "<group>"; };
+		369A8BAB685090C7F64F7E89 /* Pods_TAKON_V2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TAKON_V2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FD998C7AFF16638C348E4CE /* Pods-TAKON V2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TAKON V2Tests.debug.xcconfig"; path = "Target Support Files/Pods-TAKON V2Tests/Pods-TAKON V2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		79E9429753DDDB3BE1CC3BD7 /* Pods-TAKON V2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TAKON V2.release.xcconfig"; path = "Target Support Files/Pods-TAKON V2/Pods-TAKON V2.release.xcconfig"; sourceTree = "<group>"; };
+		83AD042319FAAC40D496B9FF /* Pods-TAKON V2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TAKON V2Tests.release.xcconfig"; path = "Target Support Files/Pods-TAKON V2Tests/Pods-TAKON V2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9B537191520B9513BEE30EE3 /* Pods-TAKON V2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TAKON V2.debug.xcconfig"; path = "Target Support Files/Pods-TAKON V2/Pods-TAKON V2.debug.xcconfig"; sourceTree = "<group>"; };
 		AA066A3E2354409100DC2C28 /* CloudPaymentsAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CloudPaymentsAPI.framework; sourceTree = "<group>"; };
 		AA1538CC234F3362008097E6 /* AddCardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCardVC.swift; sourceTree = "<group>"; };
 		AA1538CD234F3362008097E6 /* AddCardVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddCardVC.xib; sourceTree = "<group>"; };
@@ -145,6 +152,8 @@
 		AA93EB06233A0B620046389C /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		AA93EB08233A10250046389C /* MyTabBarCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBarCtrl.swift; sourceTree = "<group>"; };
 		AA93EB0A233A10640046389C /* MyTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBar.swift; sourceTree = "<group>"; };
+		AAAAF585239798D200974438 /* WalletOneVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletOneVC.swift; sourceTree = "<group>"; };
+		AAAAF586239798D200974438 /* WalletOneVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WalletOneVC.xib; sourceTree = "<group>"; };
 		AAAE413023437F540081BA75 /* ButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCell.swift; sourceTree = "<group>"; };
 		AAAE413123437F540081BA75 /* ButtonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonCell.xib; sourceTree = "<group>"; };
 		AAAE4134234466990081BA75 /* QRCodeGeneratorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeGeneratorVC.swift; sourceTree = "<group>"; };
@@ -191,12 +200,7 @@
 		AAFEF48C2338EE2D00B7A406 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
 		AAFEF48E2338FA0200B7A406 /* ConfirmVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmVC.swift; sourceTree = "<group>"; };
 		AAFEF48F2338FA0200B7A406 /* ConfirmVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConfirmVC.xib; sourceTree = "<group>"; };
-		B9FB9CDC5744C5DD67E64793 /* Pods_TAKON_V2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TAKON_V2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D77EDAC71C7555A97B566E6F /* Pods-TAKON V2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TAKON V2UITests.release.xcconfig"; path = "Target Support Files/Pods-TAKON V2UITests/Pods-TAKON V2UITests.release.xcconfig"; sourceTree = "<group>"; };
-		EA07D8873F50E6E961F41442 /* Pods_TAKON_V2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TAKON_V2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EFE9A7CA6B032509193639E6 /* Pods-TAKON V2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TAKON V2.debug.xcconfig"; path = "Target Support Files/Pods-TAKON V2/Pods-TAKON V2.debug.xcconfig"; sourceTree = "<group>"; };
-		F2A5BD64739E5AC4092FCA9C /* Pods_TAKON_V2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TAKON_V2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F942ABFE35463B5A6DB2DEDE /* Pods-TAKON V2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TAKON V2Tests.release.xcconfig"; path = "Target Support Files/Pods-TAKON V2Tests/Pods-TAKON V2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BEFD9B35D7E8F25727C94D3F /* Pods_TAKON_V2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TAKON_V2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,7 +210,7 @@
 			files = (
 				AA59B9E22355A19D00CEE75E /* CloudPaymentsAPI.framework in Frameworks */,
 				AA066A3F2354409100DC2C28 /* CloudPaymentsAPI.framework in Frameworks */,
-				52BAE573D463F2B398669D5C /* Pods_TAKON_V2.framework in Frameworks */,
+				E19DE0518098DF968121CD4A /* Pods_TAKON_V2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,7 +218,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3912A221646C9798045FA848 /* Pods_TAKON_V2Tests.framework in Frameworks */,
+				F15B65FB4997FC27175DD84A /* Pods_TAKON_V2Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,7 +226,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FCD7DDC9DD9D95C9AF9CF23 /* Pods_TAKON_V2UITests.framework in Frameworks */,
+				3364B291D3F94AE901A1253D /* Pods_TAKON_V2UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,9 +237,9 @@
 			isa = PBXGroup;
 			children = (
 				AA066A3E2354409100DC2C28 /* CloudPaymentsAPI.framework */,
-				EA07D8873F50E6E961F41442 /* Pods_TAKON_V2.framework */,
-				B9FB9CDC5744C5DD67E64793 /* Pods_TAKON_V2Tests.framework */,
-				F2A5BD64739E5AC4092FCA9C /* Pods_TAKON_V2UITests.framework */,
+				369A8BAB685090C7F64F7E89 /* Pods_TAKON_V2.framework */,
+				024A9960330925FB335193EA /* Pods_TAKON_V2Tests.framework */,
+				BEFD9B35D7E8F25727C94D3F /* Pods_TAKON_V2UITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -243,12 +247,12 @@
 		9F48E075595E5B99DB8A4838 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EFE9A7CA6B032509193639E6 /* Pods-TAKON V2.debug.xcconfig */,
-				6831317CAE9196E1B8A022CC /* Pods-TAKON V2.release.xcconfig */,
-				6162DEC82202144F86DDE2EC /* Pods-TAKON V2Tests.debug.xcconfig */,
-				F942ABFE35463B5A6DB2DEDE /* Pods-TAKON V2Tests.release.xcconfig */,
-				12ACFCC62F70D65F6B12E307 /* Pods-TAKON V2UITests.debug.xcconfig */,
-				D77EDAC71C7555A97B566E6F /* Pods-TAKON V2UITests.release.xcconfig */,
+				9B537191520B9513BEE30EE3 /* Pods-TAKON V2.debug.xcconfig */,
+				79E9429753DDDB3BE1CC3BD7 /* Pods-TAKON V2.release.xcconfig */,
+				3FD998C7AFF16638C348E4CE /* Pods-TAKON V2Tests.debug.xcconfig */,
+				83AD042319FAAC40D496B9FF /* Pods-TAKON V2Tests.release.xcconfig */,
+				16228875F1266EEE6DB5BD3B /* Pods-TAKON V2UITests.debug.xcconfig */,
+				1AED6B67D5B857E27852A79E /* Pods-TAKON V2UITests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -394,6 +398,8 @@
 				AADBDBBA235ED4520059DC48 /* PartnersVC.xib */,
 				AA455AEE23698EAD00C8C7FC /* MapViewController.swift */,
 				AA455AEF23698EAD00C8C7FC /* MapViewController.xib */,
+				AAAAF585239798D200974438 /* WalletOneVC.swift */,
+				AAAAF586239798D200974438 /* WalletOneVC.xib */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -454,12 +460,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA5A25B72330DE290020B0BF /* Build configuration list for PBXNativeTarget "TAKON V2" */;
 			buildPhases = (
-				5C0C314EDA32AC58F1322B0E /* [CP] Check Pods Manifest.lock */,
+				E2874026265473FB82D23A8E /* [CP] Check Pods Manifest.lock */,
 				AA5A258B2330DE290020B0BF /* Sources */,
 				AA5A258C2330DE290020B0BF /* Frameworks */,
 				AA5A258D2330DE290020B0BF /* Resources */,
-				F7E4969A5D9BEB930CE917F3 /* [CP] Embed Pods Frameworks */,
-				9013977B6DBA49EFB5D73A21 /* [CP] Copy Pods Resources */,
+				4F5FC0D1759C2D11AFB810E1 /* [CP] Embed Pods Frameworks */,
+				09170FD65A808696769B2D60 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -474,7 +480,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA5A25BA2330DE290020B0BF /* Build configuration list for PBXNativeTarget "TAKON V2Tests" */;
 			buildPhases = (
-				4C82F69FCBF7F4BABFF86845 /* [CP] Check Pods Manifest.lock */,
+				8E2A7A1C49C709234300E832 /* [CP] Check Pods Manifest.lock */,
 				AA5A259F2330DE290020B0BF /* Sources */,
 				AA5A25A02330DE290020B0BF /* Frameworks */,
 				AA5A25A12330DE290020B0BF /* Resources */,
@@ -493,7 +499,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA5A25BD2330DE290020B0BF /* Build configuration list for PBXNativeTarget "TAKON V2UITests" */;
 			buildPhases = (
-				E1F659C465602EF8800A83D6 /* [CP] Check Pods Manifest.lock */,
+				C396519569841AC46BD92C8F /* [CP] Check Pods Manifest.lock */,
 				AA5A25AA2330DE290020B0BF /* Sources */,
 				AA5A25AB2330DE290020B0BF /* Frameworks */,
 				AA5A25AC2330DE290020B0BF /* Resources */,
@@ -561,6 +567,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAAAF588239798D200974438 /* WalletOneVC.xib in Resources */,
 				AA5A259D2330DE290020B0BF /* LaunchScreen.storyboard in Resources */,
 				AAE2E1F4234210E400645F48 /* PaymentTVC.xib in Resources */,
 				AAE2E1E62341E7FE00645F48 /* ScannerVC.xib in Resources */,
@@ -614,7 +621,41 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4C82F69FCBF7F4BABFF86845 /* [CP] Check Pods Manifest.lock */ = {
+		09170FD65A808696769B2D60 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TAKON V2/Pods-TAKON V2-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TAKON V2/Pods-TAKON V2-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TAKON V2/Pods-TAKON V2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F5FC0D1759C2D11AFB810E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TAKON V2/Pods-TAKON V2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TAKON V2/Pods-TAKON V2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TAKON V2/Pods-TAKON V2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E2A7A1C49C709234300E832 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -636,46 +677,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5C0C314EDA32AC58F1322B0E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TAKON V2-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9013977B6DBA49EFB5D73A21 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TAKON V2/Pods-TAKON V2-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TAKON V2/Pods-TAKON V2-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TAKON V2/Pods-TAKON V2-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E1F659C465602EF8800A83D6 /* [CP] Check Pods Manifest.lock */ = {
+		C396519569841AC46BD92C8F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -697,21 +699,26 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F7E4969A5D9BEB930CE917F3 /* [CP] Embed Pods Frameworks */ = {
+		E2874026265473FB82D23A8E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TAKON V2/Pods-TAKON V2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TAKON V2/Pods-TAKON V2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TAKON V2-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TAKON V2/Pods-TAKON V2-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -746,6 +753,7 @@
 				AA1538CE234F3362008097E6 /* AddCardVC.swift in Sources */,
 				AA59B9DD235598D200CEE75E /* HistoryCell.swift in Sources */,
 				AAF567EA233DF23A00FD1A5A /* CompanyTVC.swift in Sources */,
+				AAAAF587239798D200974438 /* WalletOneVC.swift in Sources */,
 				AAFEF4902338FA0200B7A406 /* ConfirmVC.swift in Sources */,
 				AA5A25932330DE290020B0BF /* AppDelegate.swift in Sources */,
 				AAFEF48D2338EE2D00B7A406 /* UIViewControllerExtension.swift in Sources */,
@@ -931,7 +939,7 @@
 		};
 		AA5A25B82330DE290020B0BF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EFE9A7CA6B032509193639E6 /* Pods-TAKON V2.debug.xcconfig */;
+			baseConfigurationReference = 9B537191520B9513BEE30EE3 /* Pods-TAKON V2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "TAKON V2/TAKON V2.entitlements";
@@ -949,6 +957,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 4.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Maint.Takon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "TAKON V2/Header.h";
@@ -959,7 +968,7 @@
 		};
 		AA5A25B92330DE290020B0BF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6831317CAE9196E1B8A022CC /* Pods-TAKON V2.release.xcconfig */;
+			baseConfigurationReference = 79E9429753DDDB3BE1CC3BD7 /* Pods-TAKON V2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "TAKON V2/TAKON V2.entitlements";
@@ -977,6 +986,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 4.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Maint.Takon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "TAKON V2/Header.h";
@@ -987,7 +997,7 @@
 		};
 		AA5A25BB2330DE290020B0BF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6162DEC82202144F86DDE2EC /* Pods-TAKON V2Tests.debug.xcconfig */;
+			baseConfigurationReference = 3FD998C7AFF16638C348E4CE /* Pods-TAKON V2Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1009,7 +1019,7 @@
 		};
 		AA5A25BC2330DE290020B0BF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F942ABFE35463B5A6DB2DEDE /* Pods-TAKON V2Tests.release.xcconfig */;
+			baseConfigurationReference = 83AD042319FAAC40D496B9FF /* Pods-TAKON V2Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1031,7 +1041,7 @@
 		};
 		AA5A25BE2330DE290020B0BF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 12ACFCC62F70D65F6B12E307 /* Pods-TAKON V2UITests.debug.xcconfig */;
+			baseConfigurationReference = 16228875F1266EEE6DB5BD3B /* Pods-TAKON V2UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1052,7 +1062,7 @@
 		};
 		AA5A25BF2330DE290020B0BF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D77EDAC71C7555A97B566E6F /* Pods-TAKON V2UITests.release.xcconfig */;
+			baseConfigurationReference = 1AED6B67D5B857E27852A79E /* Pods-TAKON V2UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

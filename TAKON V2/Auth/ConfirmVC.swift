@@ -111,6 +111,8 @@ class ConfirmVC: UIViewController, UITextFieldDelegate {
                                 self.singleVibration()
                                 let storyBoard: UIStoryboard = UIStoryboard(name: "Storyboard", bundle: nil)
                                 let newViewController = storyBoard.instantiateViewController(withIdentifier: "main")
+                                newViewController.modalPresentationStyle = .fullScreen //or .overFullScreen for transparency
+
                                 self.present(newViewController, animated: true, completion: nil)
                             }else{
                                 self.clear()
